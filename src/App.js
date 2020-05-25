@@ -93,7 +93,6 @@ function App() {
       <Box>
         <Box marginTop="10px">
             <Grid container justify='center' style={{paddingBottom: "10px"}}>
-            <Text> Hi it's me </Text>
               <Grid item key="add-link-button">
                 <AddLink state = { {path, setPath} } userState= {{user, setUser}} />
               </Grid>
