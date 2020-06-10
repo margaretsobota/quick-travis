@@ -111,7 +111,6 @@ const AddFolder = ( { state, userState } ) => {
 
   return (
     <Container >
-
       <Button variant="contained" type="button" onClick={handleOpen}>
         Add Folder
       </Button>
